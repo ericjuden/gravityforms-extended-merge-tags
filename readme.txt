@@ -2,11 +2,11 @@
 Contributors: ericjuden
 Tags: gravity, gravityforms, form, session, cookie, server
 Requires at least: 3.7
-Tested up to: 4.0
+Tested up to: 4.9.7
 Stable tag: trunk 
 
 == Description ==
-This plugin allows you to use $_COOKIE, $_SERVER and $_SESSION data in a Gravity Form through the merge tags of a field. I’ve only really tested this using a hidden field.
+This plugin allows you to use $_COOKIE, $_SERVER, $_SESSION, $_GET, $_POST and $_REQUEST data in a Gravity Form through the merge tags of a field. I’ve only really tested this using a hidden field.
 
 == Screenshots ==
 1. Showing the merge tags dropdown
@@ -25,5 +25,9 @@ This plugin allows you to use $_COOKIE, $_SERVER and $_SESSION data in a Gravity
 6. Change the "key" text with the data you are looking for
 
 == Changelog ==
+= 1.1 =
+* Added support for $_GET, $_POST and $_REQUEST variables
+* Cleaned up the code to better adhere to WordPress coding standards
+
 = 1.0 =
 * Initial release
