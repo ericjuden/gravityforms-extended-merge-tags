@@ -2,7 +2,7 @@
 Contributors: ericjuden
 Tags: gravity, gravityforms, form, session, cookie, server
 Requires at least: 3.7
-Tested up to: 4.9.7
+Tested up to: 5.7
 Stable tag: trunk 
 
 == Description ==
